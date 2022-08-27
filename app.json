@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "scheme",
+    "slug": "scheme",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "scheme"
+}
