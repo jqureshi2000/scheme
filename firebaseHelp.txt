@@ -1,0 +1,9 @@
+1. download node.js
+2. npm -v to see which node.js version is currently on
+3. npm install
+4. npm i firebase
+
+
+
+
+in .env, enter API_KEY
