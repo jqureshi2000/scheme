@@ -1,21 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import logo from './logo.svg';
+import './App.css';
+import Container from './components/container/Container';
 
-export default function App() {
+function App() {
   return (
-    <View style={styles.container}>
-      <Text>Welcome to Scheme</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Container/>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
